@@ -2,7 +2,7 @@ import React from 'react'
 
 function Reccomendedvideos() {
   return (
-    <div>Reccomendedvideos</div>
+    <div className='basis-4/5 pb-0'>Reccomendedvideos</div>
   )
 }
 
