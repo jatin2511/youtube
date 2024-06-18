@@ -1,0 +1,6 @@
+.sidebar_row:hover > .sidebar_icon{
+    color:red;
+}
+.sidebar_row:hover > .sidebar_title{
+    font-weight:600;
+}
