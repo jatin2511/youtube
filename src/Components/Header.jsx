@@ -6,12 +6,13 @@ import AppsIcon from '@mui/icons-material/Apps';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import { Link } from 'react-router-dom';
 
-function Header() {
+function Header({Sidebarvisibility, setsidebarvisibility}) {
     const [InputSearch,setInputSearch]=useState('');
     return (
         <div className='header flex justify-between items-center p-[10px] sticky top-0 bg-white'>
             <div className='flex'>
-                <MenuIcon/>
+                <span onClick={()=>{setsidebarvisibility(!Sidebarvisibility)}} className='cursor-pointer'><MenuIcon /></span>
+                
                 <Link to='/'> 
                 <img className='header__logo h-[25px] px-5' src='https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg' alt='youtube logo'></img>
                 </Link>

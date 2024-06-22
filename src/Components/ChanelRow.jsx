@@ -3,7 +3,7 @@ import VerifiedIcon from '@mui/icons-material/Verified';
 
 function ChanelRow({logo,name,subs,verified,description,noofvideos}) {
   return (
-    <div> <div className='flex my-6 mx-4 items-center w-full xl:mr-20'>
+    <div className='w-full'> <div className='flex my-6 px-4 items-center w-full xl:pr-20'>
        <div className='h-full w-[270px] flex justify-center'>
         <img className='h-[136px] w-[136px] ' src={logo}/>
         </div> 
@@ -17,7 +17,7 @@ function ChanelRow({logo,name,subs,verified,description,noofvideos}) {
         </div>
        
     </div>
-    <hr className='border-[1px]'/>
+    <hr className=' border-[1px]'/>
     </div>
    
   )

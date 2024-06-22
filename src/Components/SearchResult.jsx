@@ -5,13 +5,13 @@ import VideoRow from './VideoRow';
 
 function SearchResult() {
   return (
-    <div className='w-full'>
-        <div className='px-3 flex gap-2 '>
+    <div className='w-full flex flex-col items-center '>
+        <div className='px-3 flex gap-2 justify-items-start w-full'>
             <TuneIcon className='cursor-pointer'/>
             <h2>FILTER</h2>
         </div>
         <hr className='border-[1px]'/>
-        <div>
+        <div className='w-full'>
             <ChanelRow
             logo='https://yt3.googleusercontent.com/ytc/AIdro_mihOV3zxY65LC0FsPBZIdX6YoqeuC_-1ZJaZhNfU4JVgY=s176-c-k-c0x00ffffff-no-rj'
             name='MrBeast Gaming'
